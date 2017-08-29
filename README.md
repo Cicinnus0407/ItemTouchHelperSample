@@ -4,12 +4,12 @@ ItemTouchHelperDemo
 
 ##### ItemTouchHelper 是support.v7包中提供的一个类,在Api22的时候被加入,目的是为RecyclerView的item添加滑动(Swipe)和拖拽(drag&drop)功能.适用于系统提供的各种LayoutManager(Linear/Grid/StaggeredGrid),同时也可以用于自定义的LayoutManager,只需实现几个方法就能实现长按拖拽和侧滑的效果.
 
-#### Sample地址:
+#### Demo地址:[ItemTouchHelperSample](https://github.com/Cicinnus0407/ItemTouchHelperSample)
 
 #### 效果图
 > #####  示例中只启用拖拽功能,滑动功能可以自行研究,其中官方文档是最好的参考[ItemTouchHelper](https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.html)
 
-[![效果](http://cicinnus-blog.oss-cn-shenzhen.aliyuncs.com/2017/08/SM-G9350_20170829220641.gif)](http://cicinnus-blog.oss-cn-shenzhen.aliyuncs.com/2017/08/SM-G9350_20170829220641.gif)
+[![效果](http://cicinnus-blog.oss-cn-shenzhen.aliyuncs.com/2017/08/SM-G9350_20170829220641.gif)]
 ### 实现步骤:
 
 #### 1.添加一个RecyclerView和一些假数据,应该都非常熟悉了
